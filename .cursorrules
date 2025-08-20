@@ -1,0 +1,6 @@
+rules:
+  - "Khi viết API Express phải dùng async/await, không dùng callback"
+  - "Các truy vấn DB phải thông qua repository, không gọi trực tiếp Sequelize trong controller"
+  - "Khi xử lý password, luôn dùng bcrypt để hash"
+  - "JWT phải lưu secret trong .env, không hardcode"
+  - "Code phải có comment JSDoc cho các hàm public"
